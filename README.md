@@ -6,9 +6,16 @@ last version of my schematic on KiCad :
 PCB on KiCad :
 
 
-<img width="783" height="606" alt="image" src="https://github.com/user-attachments/assets/015d9c5c-9e0f-4483-8d65-65488de992fa" />
+<img width="972" height="650" alt="image" src="https://github.com/user-attachments/assets/9c144713-712c-4780-84f6-651d33368c45" />
+(It's not centered because it's easier like this for the CAD)
+
+
 
 KiCad's 3d render of it : 
 
-<img width="834" height="621" alt="image" src="https://github.com/user-attachments/assets/c275dd95-8a8c-4cfb-9b43-39e6a3ee78ea" />
-<img width="771" height="638" alt="image" src="https://github.com/user-attachments/assets/14a45f15-4e8a-42c3-8369-b28ab72713d1" />
+<img width="696" height="507" alt="image" src="https://github.com/user-attachments/assets/20cc48d5-783e-45b7-873d-8b6685d3f23d" />
+
+
+PCB on Fusion 360 : 
+<img width="1010" height="740" alt="image" src="https://github.com/user-attachments/assets/1125b3e3-4213-4384-b7ee-aad0214dab4f" />
+
