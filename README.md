@@ -30,6 +30,7 @@ Final model on Fusion 360 :
 Parts to 3d print : 
 <img width="1280" height="585" alt="image" src="https://github.com/user-attachments/assets/1c492291-f291-4d8b-8d1a-beca52eda6b1" />
 
+<img width="1027" height="628" alt="image" src="https://github.com/user-attachments/assets/9ca628c0-5416-404e-b168-e2adc81dff68" />
 
 
 
