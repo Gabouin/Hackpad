@@ -62,7 +62,7 @@ jobs:
       - name: Find and copy .uf2
         run: |
           mkdir -p artifacts
-          find qmk_firmware/.build -name "*.uf2" -exec cp {} artifacts/gabs_hackpad.uf2 \;
+          find qmk_firmware -maxdepth 2 -name "*.uf2" -exec cp {} artifacts/gabs_hackpad.uf2 \;
           ls -lh artifacts/
 
       # 7. Upload le .uf2 comme artifact téléchargeable
