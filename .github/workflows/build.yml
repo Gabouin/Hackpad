@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'firmware/**'
+      - 'FIRMWARE/**'
   pull_request:
     branches: [ main ]
   workflow_dispatch:   # permet de lancer manuellement depuis GitHub
@@ -43,7 +43,7 @@ jobs:
       # 4. Copie ton keyboard dans QMK
       - name: Copy keyboard into QMK
         run: |
-          cp -r firmware/gabs_hackpad qmk_firmware/keyboards/gabs_hackpad
+          cp -r FIRMWARE/gabs_hackpad qmk_firmware/keyboards/gabs_hackpad
 
       # 5. Compile !
       - name: Compile firmware
