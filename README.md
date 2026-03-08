@@ -6,31 +6,33 @@ last version of my schematic on KiCad :
 PCB on KiCad :
 
 
-<img width="972" height="650" alt="image" src="https://github.com/user-attachments/assets/9c144713-712c-4780-84f6-651d33368c45" />
-(It's not centered because it's easier like this for the CAD)
+<img width="890" height="594" alt="image" src="https://github.com/user-attachments/assets/33a607cf-7c21-41e4-902c-4f02be932e7b" />
+<img width="945" height="629" alt="image" src="https://github.com/user-attachments/assets/f641399f-0407-4979-a064-3da504cde514" />
+
+
 
 
 
 KiCad's 3d render of it : 
 
-<img width="696" height="507" alt="image" src="https://github.com/user-attachments/assets/20cc48d5-783e-45b7-873d-8b6685d3f23d" />
+<img width="825" height="664" alt="image" src="https://github.com/user-attachments/assets/44a7077b-bedd-4b9e-8d59-fb14a6cd145b" />
+<img width="834" height="648" alt="image" src="https://github.com/user-attachments/assets/544acbca-b409-47de-9363-018043ebbfdb" />
+
 
 
 PCB on Fusion 360 : 
-<img width="1010" height="740" alt="image" src="https://github.com/user-attachments/assets/1125b3e3-4213-4384-b7ee-aad0214dab4f" />
+<img width="858" height="650" alt="image" src="https://github.com/user-attachments/assets/8e17e9e2-3f5e-48b5-84eb-9d23a9cd1fc8" />
+<img width="735" height="595" alt="image" src="https://github.com/user-attachments/assets/7621c40e-54ac-4886-b345-073e7637da84" />
 
 Final model on Fusion 360 : 
 
-<img width="766" height="554" alt="image" src="https://github.com/user-attachments/assets/11270f3f-51c9-4080-9624-a6f9907d3a6a" />
-<img width="648" height="497" alt="image" src="https://github.com/user-attachments/assets/bef62c16-5ce1-4344-8c28-3d377ca36d95" />
-<img width="732" height="489" alt="image" src="https://github.com/user-attachments/assets/6ae1ed97-515e-4615-a63e-0e69191838cc" />
-<img width="670" height="399" alt="image" src="https://github.com/user-attachments/assets/3ea9902b-b720-43f2-9cb1-c99c9c614ac8" />
-<img width="822" height="491" alt="image" src="https://github.com/user-attachments/assets/6f46de50-eb7d-4927-90cd-ffdd8f63326c" />
+<img width="736" height="576" alt="image" src="https://github.com/user-attachments/assets/02a5fc5a-4d7b-4115-a527-dc49e79e7e38" />
+<img width="730" height="484" alt="image" src="https://github.com/user-attachments/assets/48fabda1-b6ad-40c1-b5c5-1d6e316f2273" />
+
+
 
 Parts to 3d print : 
-<img width="1280" height="585" alt="image" src="https://github.com/user-attachments/assets/1c492291-f291-4d8b-8d1a-beca52eda6b1" />
-
-<img width="1027" height="628" alt="image" src="https://github.com/user-attachments/assets/9ca628c0-5416-404e-b168-e2adc81dff68" />
+<img width="287" height="428" alt="image" src="https://github.com/user-attachments/assets/a527adb7-c68a-497b-8ed3-25585f8bf5c8" />
 
 
 
