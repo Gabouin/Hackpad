@@ -1,0 +1,67 @@
+name: Build QMK Firmware
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'firmware/**'
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:   # permet de lancer manuellement depuis GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Récupère ton repo
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # 2. Clone QMK firmware
+      - name: Clone QMK firmware
+        run: |
+          git clone --depth 1 https://github.com/qmk/qmk_firmware.git
+          cd qmk_firmware
+          git submodule update --init --recursive --depth 1
+
+      # 3. Installe les dépendances QMK
+      - name: Install QMK dependencies
+        run: |
+          cd qmk_firmware
+          python3 -m pip install --upgrade pip
+          pip3 install qmk
+          sudo apt-get update
+          sudo apt-get install -y \
+            gcc-arm-none-eabi \
+            binutils-arm-none-eabi \
+            avrdude \
+            dfu-programmer \
+            dfu-util \
+            make
+
+      # 4. Copie ton keyboard dans QMK
+      - name: Copy keyboard into QMK
+        run: |
+          cp -r firmware/gabs_hackpad qmk_firmware/keyboards/gabs_hackpad
+
+      # 5. Compile !
+      - name: Compile firmware
+        run: |
+          cd qmk_firmware
+          qmk compile -kb gabs_hackpad -km default
+
+      # 6. Récupère le .uf2 généré
+      - name: Find and copy .uf2
+        run: |
+          mkdir -p artifacts
+          find qmk_firmware/.build -name "*.uf2" -exec cp {} artifacts/gabs_hackpad.uf2 \;
+          ls -lh artifacts/
+
+      # 7. Upload le .uf2 comme artifact téléchargeable
+      - name: Upload firmware artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gabs_hackpad_firmware
+          path: artifacts/gabs_hackpad.uf2
+          retention-days: 30
