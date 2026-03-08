@@ -56,7 +56,7 @@ jobs:
       - name: Compile firmware
         run: |
           cd qmk_firmware
-          qmk compile -kb gabs_hackpad -km default
+          make gabs_hackpad:default
 
       # 6. Récupère le .uf2 généré
       - name: Find and copy .uf2
