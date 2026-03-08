@@ -1,0 +1,58 @@
+{
+    "keyboard_name": "Gab's Hackpad",
+    "manufacturer": "Gabouin",
+    "maintainer": "Gabouin",
+    "usb": {
+        "vid": "0x6C62",
+        "pid": "0x6861",
+        "device_version": "0.0.1"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "mousekey": false,
+        "extrakey": true,
+        "console": false,
+        "command": false,
+        "nkro": true,
+        "encoder": true,
+        "oled": true,
+        "rgblight": true
+    },
+    "matrix_pins": {
+        "direct": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5"]
+    },
+    "encoder": {
+        "rotary": [
+            {
+                "pin_a": "GP6",
+                "pin_b": "GP7",
+                "resolution": 4
+            }
+        ]
+    },
+    "rgblight": {
+        "led_count": 6,
+        "pin": "GP16",
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "snake": true,
+            "static_gradient": true
+        }
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0, "label": "SW1" },
+                { "matrix": [0, 1], "x": 1, "y": 0, "label": "SW2" },
+                { "matrix": [0, 2], "x": 2, "y": 0, "label": "SW3" },
+                { "matrix": [0, 3], "x": 0, "y": 1, "label": "SW4" },
+                { "matrix": [0, 4], "x": 1, "y": 1, "label": "SW5" },
+                { "matrix": [0, 5], "x": 2, "y": 1, "label": "SW6" }
+            ]
+        }
+    }
+}
