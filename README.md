@@ -28,6 +28,7 @@ Final model on Fusion 360 :
 
 <img width="736" height="576" alt="image" src="https://github.com/user-attachments/assets/02a5fc5a-4d7b-4115-a527-dc49e79e7e38" />
 <img width="730" height="484" alt="image" src="https://github.com/user-attachments/assets/48fabda1-b6ad-40c1-b5c5-1d6e316f2273" />
+<img width="1304" height="392" alt="image" src="https://github.com/user-attachments/assets/33010e1f-fcda-43b2-9a56-dec923539871" />
 
 
 
