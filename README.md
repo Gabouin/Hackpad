@@ -1,6 +1,6 @@
-# Gab-s-Hackpad
-I am making my first PCB project : a simple hackpad with 6 switch, a rotary encoder, an oled display and the microcontroller.
-The OLED screen will display animations based on what switch is pushed, leds will be illuminating all the macropad with predifined colors animations.The rotary encoder is going to be used to change the volume and, for the moment, the switches will regulate my spotify playlist (as I listen music while working) and other things I will decide once my hackpad is finished.
+# Hackpad
+I am making my first PCB project : a simple macropad with 6 switch, a rotary encoder, an oled display and a microcontroller.
+The OLED screen will display animations based on what switch is pushed, leds will be illuminating the whole macropad with predifined colors animations.The rotary encoder is going to be used to change the volume and, for the moment, the switches will regulate my spotify playlist (as I listen music while working) and other things I will decide once my hackpad is finished.
 
 last version of my schematic on KiCad : 
 <img width="1449" height="693" alt="image" src="https://github.com/user-attachments/assets/0d1dc423-c7c5-4d3a-8b40-754123dcf21a" />
