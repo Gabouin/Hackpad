@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 # Hackpad
 
 <img width=100% alt="banner hackpad" src="https://github.com/user-attachments/assets/e1a18f73-1a3d-46c4-a5b2-7dd4b85cd72d" />  
