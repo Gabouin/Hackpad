@@ -62,8 +62,21 @@ KiCad's 3d render of it :
 </div> 
 <br>  
 
-## BOM
+## [BOM](https://blueprint.hackclub.com/hackpad/parts)
 <br>  
 
-<img width="446" height="523" alt="image" src="https://github.com/user-attachments/assets/cdc7a327-9bda-4f5d-bcc1-472f86db100a" />
-https://blueprint.hackclub.com/hackpad/parts
+|Components        |Precision                 |Quantity|
+|------------------|--------------------------|--------|
+|                  |                          |        |
+|Seeed XIAO RP2040 |Microcontroller           |1       |
+|1N4148            |Diodes for the switches   |7       |
+|MX-Style switches |keyboard switches         |6       |
+|EC11              |rotary encoder            |1       |
+|OLED display      |0.91 inch OLED display    |1       |
+|DSA keycaps       |white blank DSA keycaps   |6       |
+|SK6812 MINI-E     |SK6812 MINI-E LEDs        |6       |
+|screws            |M3x16mm screws            |4       |
+|heatsets inserts  |M3x5mx4mm heatset inserts |4       |
+|PLA               |3d printed parts          |44g     |
+
+
