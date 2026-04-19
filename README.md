@@ -4,10 +4,10 @@
 <br>  
 <br>
 
-<p>
+
 This is my first PCB project : a **simple macropad** with 6 switches, a rotary encoder, an oled display and a microcontroller.
-The OLED screen will display **animations based on what switch is pushed**, leds will be illuminating the whole macropad with **predifined colors animations**. The rotary encoder is going to be used to change the volume and to **change the key shortcuts mode** by clicking it. The switches will either regulate my spotify playlist (first key shortcut mode) or other shortcuts based on what work I complete.
-</p>
+The OLED screen will display **animations based on what switch is pushed**, leds will be illuminating the whole macropad with **predifined colors animations**. The rotary encoder is going to be used to change the volume and to **change the key shortcuts mode** by clicking it. The switches will either regulate my spotify playlist (first key shortcut mode) or **other shortcuts** based on what work I complete.
+
 <br>
 
 ## SCHEMATIC
